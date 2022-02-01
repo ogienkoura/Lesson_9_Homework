@@ -18,6 +18,12 @@ body {
     float: left;
 }
 
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .col-3 {
     width: 25%;
 }
@@ -26,6 +32,3 @@ body {
     width: 50%;
 }
 
-.main {
-    display: block;
-}
