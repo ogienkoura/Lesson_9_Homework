@@ -97,6 +97,7 @@ body {
     border: 1px solid #2c71b8;
     padding-left: 4px; 
     padding-right: 38px;
+    /* position: absolute; */
      
 }
 
@@ -117,10 +118,11 @@ form button {
     cursor: pointer; 
 }
 
-.col-1 {
-    width: 25%;
-    padding-top: 5px;
+.col-3 button.cart {
+    padding-top: 10px;
 }
+
+
 
 .cart {
     float: right;
@@ -129,6 +131,25 @@ form button {
     background-color: white;
     border: none;
     cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.product-count {
+    width: 20px;
+    height: 20px;
+    background-color: #2c71b8;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-size: 12px;
+    margin-right: 20px;
 }
 
 .submenu {
@@ -148,7 +169,7 @@ form button {
 .submenu > li {
     display: block;
     background-color: #2c71b8;
-    width: 293px;
+    width: 286px;
     border-left: none;
     
   }
@@ -159,6 +180,7 @@ form button {
     /* height: 35px; */
     text-decoration: none;
     text-align: left;
+    padding-left: 30px;
   }
 
   .submenu > li > a:hover {
@@ -172,31 +194,128 @@ form button {
     color: white;
   }
 
-  
-  .main {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+.slider {
+    height: 400px;
+    background-color: grey;
 }
-  
-  
-  .slider {
-      width: 1170px;
-      height: 400px;
-      margin: 0 auto;
-  }
 
-  .col-3.filter {
-      width: 270px;
+
+  .sort-form {
+      width: 300px;
       height: 840px;
-    
-      background-color: aqua;
+      background-color: white;
   }
 
-    .col-9.items {
-        width: 870px;
-        height: 840px;
-        background-color: azure;
-        float: right;
-    }
+  .items {
+      width: 870px;
+      /* background-color: bisque; */
+      height: 840px;
+  }
+
+  .breadcrumbs {
+      width: 870px;
+      height: 65px;
+      /* background-color: pink; */
+  }
+
+.breadcrumbs_inner {
+    padding-top: 30px;
+}
+
+  .breadcrumbs_inner li {
+      display: inline;
+      padding-top: 30px;
+  }
+
+  .breadcrumbs_inner a {
+      text-decoration: none;
+      font-size: 14px;
+      color: #6f9ecf;
+  }
+
+  .breadcrumbs_inner a:hover {
+      text-decoration: underline;
+  }
+
+
+
+  .menu.sort {
+      width: 270px;
+      height: 40px;
+      
+     
+      
+  }
+
+  .menu.sort li {
+      width: 270px;
+      height: 40px;
+    border-left: none;
+    border-right: none;
+    
+    
+  }
+
+  .menu.sort li a {
+    background-color: #2c71b8;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    border: 1px solid white;
+    
+  }
+
+  .dropbtn.sort {
+      width: 270px;
+      height: 40px;
+      line-height: 40px;
+  }
+
+  .dropbtn.sort:hover {
+      border: 1px solid white;
+  }
+
+  .submenu.sort li {
+      width: 270px;
+        left: 1px;
+  }
+
+  .submenu.sort li a {
+      line-height: 40px;
+  }
+
+  .submenu.sort li a:last-child {
+      height: 40px;
+  }
+
+  .submenu.sort li a:hover {
+    background-color: white;
+    color: #2c71b8;
+    
+  }
+
+  .menu.sort li:hover a.dropbtn.sort  {
+    border: 1px solid white;
+  }
+
+
+.items_header h1 {
+    float: left;
+    font-size: 48px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+  .items_header ul {
+      float: right;
+  }
+
+
+
+  
+  
+
+
+
+  
