@@ -209,7 +209,7 @@ form button {
   .items {
       width: 870px;
       /* background-color: bisque; */
-      height: 840px;
+      height: 145px;
   }
 
   .breadcrumbs {
@@ -267,6 +267,7 @@ form button {
       width: 270px;
       height: 40px;
       line-height: 40px;
+      position: relative;
   }
 
   .dropbtn.sort:hover {
@@ -276,10 +277,12 @@ form button {
   .submenu.sort li {
       width: 270px;
         left: 1px;
+        
   }
 
   .submenu.sort li a {
       line-height: 40px;
+      
   }
 
   .submenu.sort li a:last-child {
@@ -311,17 +314,97 @@ form button {
 
   .items_header ul {
       float: right; 
-        margin-top: 25px;
+  }
+
+ .items_header ul.menu.sort {
+    margin-top: 25px;
   }
 
 
+.col-3.items {
+    width: 300px;
+}
 
-  .shop-item {
-      width: 300px;
-      height: 650px;
-      background-color: aqua;
-      margin-top: 30px;
-  }
+.item {
+    width: 300px;
+    height: 650px;
+    background-color: red;
+}
+
+.item-image {
+    width: 300px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.75);
+    position: relative;
+}
+
+.item-image > img.monitor {
+    margin: auto;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0;
+    top: 0%;
+}
+
+.zoom-item {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid #548cc5;
+    position: relative;
+}
+
+.zoom-item img {
+    margin: auto;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0;
+    top: 0%;    
+}
+
+.like-item {
+    
+    height: 30px;
+    width: 30px;
+    float: right;   
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid #548cc5;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+.like-item img {
+    margin: auto;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0;
+    top: 0%;    
+}
+
+.item-info {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.item-info h1 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+
+
 
 
 
