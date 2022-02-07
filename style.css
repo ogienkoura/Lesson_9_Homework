@@ -267,7 +267,7 @@ form button {
   .dropbtn.sort {
       width: 270px;
       height: 40px;
-      line-height: 40px;
+      line-height: 35px;
       position: relative;
   }
 
@@ -288,6 +288,7 @@ form button {
 
   .submenu.sort li a:last-child {
       height: 40px;
+      line-height: 35px;
   }
 
   .submenu.sort li a:hover {
