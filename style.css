@@ -357,7 +357,7 @@ form button {
     position: relative;
 }
 
-.item-image > img.monitor {
+.item-image > img {
     margin: auto;
     position: absolute;
     left: 0%;
@@ -376,16 +376,17 @@ form button {
     border: 1px solid #548cc5;
     position: relative;
     cursor: pointer;
+    background-image: url(images/zoom_icon.png);
+    background-repeat: no-repeat;
+    background-position: 4px 4px;
 }
 
-.zoom-item img {
-    margin: auto;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    bottom: 0;
-    top: 0%;    
+.zoom-item:hover {
+    background-image: url(images/zoom_icon_active.png);
+    background-color: #2c71b8;
 }
+
+
 
 .like-item {
     
@@ -398,16 +399,17 @@ form button {
     top: 50px;
     right: 10px;
     cursor: pointer;
+    background-image: url(images/like_icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
 }
 
-.like-item img {
-    margin: auto;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    bottom: 0;
-    top: 0%;    
+.like-item:hover {
+    background-image: url(images/like_icon_white.png);
+    background-color: #2c71b8;
 }
+
+
 
 .item-info {
     padding-top: 15px;
@@ -436,10 +438,14 @@ form button {
     text-transform: uppercase;
 }
 
-.item-info p {
+.item-info {
     font-size: 21px;
     color: #ffffff;
     margin-bottom: 15px;
+}
+
+.item-features {
+    margin-top: 15px;
 }
 
 .price {
@@ -450,8 +456,11 @@ form button {
     padding-top: 10px;
     padding-bottom: 5px;
 }
+.price sup {
+    font-size: 30px;
+}
 
-.details {
+.btn {
     width: 210px;
     height: 50px;
     line-height: 40px;
@@ -467,42 +476,16 @@ form button {
     cursor: pointer;
 }
 
-.add_to_cart {
-    width: 210px;
-    height: 50px;
-    line-height: 40px;
-    font-size: 21px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: bold;
-    background-color: #568dc6;
+.btn:hover {
+    background-color: #598fc7;
     border: none;
-    margin-top: 15px;
-    margin-left: 29px;
-    margin-right: 29px;
-    margin-bottom: 15px;
-    cursor: pointer;
 }
 
-.item.four .like-item {
-    background-color: #2c71b8;
-}
 
-.item.four .add_to_cart {
-    background-color: #3778bb;
-}
 
-.price {
-    position: relative;
-}
 
-.price span {
-    margin-left: 10px;
-    font-size: 30px;
-    position: absolute;
-    top: 10px;
-    
-}
+
+
 
 
 
