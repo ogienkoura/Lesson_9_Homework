@@ -68,6 +68,7 @@ body {
     line-height: 50px;
     color:#2c71b8;
     font-size: 21px;
+    transition: 0.2s;
 }
 
 .menu a:hover {
@@ -172,6 +173,7 @@ form button {
     position: absolute;
     left: -1px;
     z-index: 3;
+    
     
 }
 
@@ -379,6 +381,7 @@ form button {
     background-image: url(images/zoom_icon.png);
     background-repeat: no-repeat;
     background-position: 4px 4px;
+    transition: 0.4s;
 }
 
 .zoom-item:hover {
@@ -402,6 +405,7 @@ form button {
     background-image: url(images/like_icon.png);
     background-repeat: no-repeat;
     background-position: 5px 6px;
+    transition: 0.4s;
 }
 
 .like-item:hover {
@@ -474,10 +478,11 @@ form button {
     margin-left: 29px;
     margin-right: 29px;
     cursor: pointer;
+    transition: 0.4s;
 }
 
 .btn:hover {
-    background-color: #598fc7;
+    background-color: rgba(255,255,255,0.2);
     border: none;
 }
 
