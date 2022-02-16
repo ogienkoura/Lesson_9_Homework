@@ -217,21 +217,75 @@ form button {
 
 
   .sort-form {
-      width: 300px;
+      width: 270px;
       height: 840px;
+      background-color: rgba(255,255,255,0.2);
+      border-right: 1px solid white;
+  }
+
+
+  .sort-by-type h1 {
+    font-size: 21px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 30px;
+  }
+
+  .sort-by-type label {
+      position: relative;
+  }
+
+  .sort-by-type label::before {
+      content: "";
+      display: block;
+      width: 10px;
+      height: 10px;
+      border: 1px solid white;
+      cursor: pointer;
+  }
+
+  .sort-by-type input[type="checkbox"]:checked + label::before {
       background-color: white;
   }
 
+  .sort-by-type input[type="checkbox"] {
+      display: none;
+  }
+
+  .sort-by-type {
+      padding-left: 30px;
+  }
+
+  .sorted-item {
+      font-size: 21px;
+      color: white;
+      font-weight: lighter;  
+        float: left;
+        margin-left: 30px;
+        line-height: 30px;
+
+     
+  }
+
+ .device-type {
+     height: 30px;
+ }
+
+
+
+
+
   .items {
       width: 870px;
-      /* background-color: bisque; */
       height: 145px;
   }
 
   .breadcrumbs {
       width: 870px;
       height: 45px;
-      /* background-color: pink; */
+
   }
 
 .breadcrumbs_inner {
@@ -485,6 +539,9 @@ form button {
     background-color: rgba(255,255,255,0.2);
     border: none;
 }
+
+
+
 
 
 
