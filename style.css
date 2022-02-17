@@ -235,11 +235,20 @@ form button {
 
   .sort-by-type label {
       position: relative;
+      color: white;
+      font-size: 21px;
+      line-height: 30px;
+  }
+
+  .sort-by-type label > span {
+    position: absolute;
+    left: 20px;
+    top: -1px;
   }
 
   .sort-by-type label::before {
       content: "";
-      display: block;
+      display: inline-block;
       width: 10px;
       height: 10px;
       border: 1px solid white;
@@ -258,22 +267,54 @@ form button {
       padding-left: 30px;
   }
 
-  .sorted-item {
-      font-size: 21px;
-      color: white;
-      font-weight: lighter;  
-        float: left;
-        margin-left: 30px;
-        line-height: 30px;
 
-     
-  }
 
  .device-type {
+     margin-top: 10px;
      height: 30px;
  }
 
+ .sort-by-type h1.color {
+     margin-top: 10px;
+ }
 
+ .sort-by-type h1.ram {
+    margin-top: 10px;
+}
+
+.more_options {
+    margin-top: 5px;
+    height: 50px;
+    
+}
+
+.more_options a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: lighter;
+    line-height: 50px;
+    padding-left: 10px;
+    
+}
+
+.submit-sort {
+    margin-top: 5px;
+    width: 210px;
+    height: 50px;
+    background-color: #2c71b8;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.submit-sort:hover {
+    background-color: #498ed3;
+    }
 
 
 
@@ -540,6 +581,29 @@ form button {
     border: none;
 }
 
+.load-more {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+
+.load-more a {
+    font-size: 36px;
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 25px 0;
+    font-size: 21px;
+    color: #2c71b8;
+    font-weight: 300;
+    text-align: center;
+}
 
 
 
