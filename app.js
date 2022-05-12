@@ -33,13 +33,7 @@ const likeBtns = document.querySelectorAll(".like-item");
 likeBtns.forEach((btn) => {
     btn.addEventListener("click", function () {
         const likedBtn = btn;
-        likedBtn.classList.add("like-item-liked");
-        if (likedBtn.classList.contains ("like-item-liked")) {
-            likedBtn.addEventListener("click", function (){
-                likedBtn.classList.remove("like-item-liked");
-                likedBtn.className = "like-item";
-            })           
-        }
+        likedBtn.classList.toggle("like-item-liked");
     })
 })
 
